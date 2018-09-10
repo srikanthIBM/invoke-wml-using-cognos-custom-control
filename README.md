@@ -75,38 +75,40 @@ Follow these steps to setup and run this code pattern. The steps are described i
 
 - Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/)
 
+- Launch watson studio
+
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/launch_WS.png)
+
 - Create a new Watson Studio project.
 
-
-
-From Watson Studio project to complete these tasks:
-
-Create a machine-learning model by using Watson Studio
-
-Train two models and pick the best one
-
-Save and deploy the model
-
-Use the deployed model to score records from a notebook
-
-
-- Follow the steps documented in the below link which has [IBM Watson Studio guided demo](https://www.ibm.com/cloud/garage/demo/try-watson-machine-learning/): Create a watson machine learning model to predict customer churn.
-
-- Create a new Watson Studio project
-
-Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). 
-
-Click on New project and select Data Science as per below.
-
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/new_project.PNG)
-
-- Define the project by giving a Name and hit 'Create'.
-
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/define_project.PNG)
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/ws_newProj.png)
 
 By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account. Choose the storage type as Cloud Object Storage for this code pattern.
 
-### Use case: 
+- Define the project by giving a Name and hit 'Create'.
+
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/define_project.PNG)
+
+- Once a project is created click on 'assets' tab.
+
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/WS_Assets.png)
+
+- Under modeler flow click on new model create a watson machine learning model to predict customer churn.
+
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/modeller.png)
+
+- Select model type as 'sample model' radio button
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/sample_wml_model.png)
+
+- You created and saved the model. It's time to deploy it. Fromthe deployment tab, click on 'Add to deployment'
+
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/add_to_deploy.png)
+
+
+
+
+
+### Use case details: 
 Customer churn occurs when customers or subscribers stop doing business with a company or service, also known as customer attrition. It is also referred as loss of clients or customers. One industry in which churn rates are particularly useful is the telecommunications industry, because most customers have multiple options from which to choose within a geographic location.
 Using this kind of data and with the help of watson machine learning model output, you will be able to predict the most likely churn customers from the cognos dashboard and by taking appropriate actios(such as giving offers and needful service) will decrease the churn rate and prevent customer attrition.
 Contract is the most important variable to predict customer churn or not churn.
