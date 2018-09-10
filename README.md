@@ -73,8 +73,7 @@ Follow these steps to setup and run this code pattern. The steps are described i
 
 ## 2. Create watson machine learning model
 
-- Follow the steps documented in the below link which has [IBM Watson Studio guided demo](https://www.ibm.com/cloud/garage/demo/try-watson-machine-learning/): Create a learning model to predict customer churn.
-Get experience with IBM Watson Studio by creating a decision-tree machine-learning model to evaluate the risk that a customer might leave your service.
+- Follow the steps documented in the below link which has [IBM Watson Studio guided demo](https://www.ibm.com/cloud/garage/demo/try-watson-machine-learning/): Create a watson machine learning model to predict customer churn.
 
 - Create a new Watson Studio project
 
@@ -92,8 +91,13 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 
 ### Use case: 
 Customer churn occurs when customers or subscribers stop doing business with a company or service, also known as customer attrition. It is also referred as loss of clients or customers. One industry in which churn rates are particularly useful is the telecommunications industry, because most customers have multiple options from which to choose within a geographic location.
-Using this kind of data and with the help of watson machine learning model output, you will be able to predict the most likely churn customers and by taking appropriate actios(such as giving offers and needful service) will decrease the churn rate and prevent customer attrition.
+Using this kind of data and with the help of watson machine learning model output, you will be able to predict the most likely churn customers from the cognos dashboard and by taking appropriate actios(such as giving offers and needful service) will decrease the churn rate and prevent customer attrition.
 Contract is the most important variable to predict customer churn or not churn.
+
+- Authorization
+Step by step instruction how to use Watson Machine Learning service can be found [here](https://dataplatform.cloud.ibm.com/docs/content/analyze-data/ml-overview.html?context=analytics)
+
+[IBM Watson Machine Learning Credentials](https://watson-ml-api.mybluemix.net/#!/Deployments/post_v3_wml_instances_instance_id_published_models_published_model_id_deployments_deployment_id_online)
 
 
 
