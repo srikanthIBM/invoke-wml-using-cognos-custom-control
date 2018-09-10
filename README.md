@@ -32,6 +32,10 @@ After going through this code pattern, you should be able to:
 
 * [JavaScript](https://www.w3schools.com/js/) - Develop forms to capture user inputs, later these forms can be imported to cognos dashboards.
 
+* [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
+
+* [IBM Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market. This code pattern uses Cloud Object Storage.
+
 * [d3js](https://d3js.org/) - Develop charts like pie, bar, or some fancy charts sunburst etc which can later be imported to cognos application.
 
 * Cognos (version 11.0.11) BI server - On Prim version of Cognos.
@@ -39,6 +43,7 @@ After going through this code pattern, you should be able to:
 ## Featured Technologies
 
 * [D3js](https://d3js.org/):  
+* [Analytics](https://developer.ibm.com/code/technologies/analytics/): Analytics delivers the value of data for the enterprise.
 * [Cognos Analytics](https://www.computerworld.com/article/2906336/emerging-technology/what-is-artificial-intelligence.html):  
 
 ## Watch The Video
@@ -60,11 +65,31 @@ Follow these steps to setup and run this code pattern. The steps are described i
 
 ## 1. Pre-requisites
 
-- Licensed version of cognos 11.0.11.
-- 
+- Admin access to cognos 11.0.11 server to place javascript files to the cognos webcontent folder.
+
+- IBM Cloud account: You must have IBM Cloud account to work with this code pattern. If you do not have an IBM Cloud account, you can create a one month free trail account [here](https://console.bluemix.net/)
+
 
 
 ## 2. Create watson machine learning model
+
+- Follow the steps documented in the below link which has [IBM Watson Studio guided demo](https://www.ibm.com/cloud/garage/demo/try-watson-machine-learning/): Create a learning model to predict customer churn.
+Get experience with IBM Watson Studio by creating a decision-tree machine-learning model to evaluate the risk that a customer might leave your service.
+
+- Create a new Watson Studio project
+
+Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). 
+
+Click on New project and select Data Science as per below.
+
+![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/new_project.PNG)
+
+Define the project by giving a Name and hit 'Create'.
+
+![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/define_project.PNG)
+
+By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account. Choose the storage type as Cloud Object Storage for this code pattern.
+
 
 
 
