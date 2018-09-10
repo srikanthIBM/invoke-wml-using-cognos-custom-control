@@ -93,14 +93,14 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 
 ![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/WS_Assets.png)
 
-- Under modeler flow click on new model create a watson machine learning model to predict customer churn.
+- Under modeler flow click on new model, create a watson machine learning model to predict customer churn.
 
 ![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/modeller.png)
 
 - Select model type as 'sample model' radio button
 ![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/sample_wml_model.png)
 
-- You created and saved the model. It's time to deploy it. Fromthe deployment tab, click on 'Add to deployment'
+- You created and saved the model. It's time to deploy it. Fromthe deployment tab, click on 'Add to deployment' and select deployment type as 'web service'.
 
 ![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/add_to_deploy.png)
 
