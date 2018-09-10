@@ -1,7 +1,7 @@
 # invoke-wml-using-cognos-custom-control
 ***Work In Progress***
 
-It is always a tedious task to see a real time Machine Learning model output from Cognos Dashboard. 
+It is always a tedious task to see a real time Watson Machine Learning(wml) model output from Cognos application. 
 To achieve that, we then need to have an external mechanism to invoke the model, pass the required input parameters and finally the scores are written back to the database. Cognos reads the latest scores from the database and displays on the dashboard. This is a little tedious process of displaying the machine learning model outputs at run time.
 
 The latest version of Cognos comes with Custom control feature. It gives the capability to create a real time dashboard where we can pass the inputs through a custom widget which internally invokes the model through REST API, gets the output and displays on the dashboard.
@@ -50,9 +50,37 @@ Will be uploaded shortly.
 ## Steps
 Follow these steps to setup and run this code pattern. The steps are described in detail below.
 1. [Pre-requisites](#1-pre-requisites)
+2. [Create watson machine learning model](#2-create-watson-machine-learning-model)
+3. [Create custom control widgets](#3-create-custom-control-widgets)
+4. [Build cognos report and import custom widget](#4-build-cognos-report-and-import-custom-widget)
+5. [Analyse the invoked machine learning model](#5-analyse-the-invoked-machine-learning-model)
 
 
 
 
 ## 1. Pre-requisites
--
+
+- Licensed version of cognos 11.0.11.
+- 
+
+
+## 2. Create watson machine learning model
+
+
+
+
+
+
+## 3. Create custom control widgets
+
+
+
+## 4. Build cognos report and import custom widget
+
+
+## 5. Analyse the invoked machine learning model
+
+
+
+
+
