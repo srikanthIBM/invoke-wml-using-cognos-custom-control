@@ -84,12 +84,16 @@ Click on New project and select Data Science as per below.
 
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/new_project.PNG)
 
-Define the project by giving a Name and hit 'Create'.
+- Define the project by giving a Name and hit 'Create'.
 
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/define_project.PNG)
 
 By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account. Choose the storage type as Cloud Object Storage for this code pattern.
 
+### Use case: 
+Customer churn occurs when customers or subscribers stop doing business with a company or service, also known as customer attrition. It is also referred as loss of clients or customers. One industry in which churn rates are particularly useful is the telecommunications industry, because most customers have multiple options from which to choose within a geographic location.
+Using this kind of data and with the help of watson machine learning model output, you will be able to predict the most likely churn customers and by taking appropriate actios(such as giving offers and needful service) will decrease the churn rate and prevent customer attrition.
+Contract is the most important variable to predict customer churn or not churn.
 
 
 
@@ -104,6 +108,11 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 
 
 ## 5. Analyse the invoked machine learning model
+
+Throughout the analysis, we have learned several important things:
+1. Features such as tenure_group, Contract, PaperlessBilling, MonthlyCharges and InternetService appear to play a role in customer churn.
+2. There does not seem to be a relationship between gender and churn.
+3. Customers in a month-to-month contract, with PaperlessBilling and are within 12 months tenure, are more likely to churn; On the other hand, customers with one or two year contract, with longer than 12 months tenure, that are not using PaperlessBilling, are less likely to churn.
 
 
 
