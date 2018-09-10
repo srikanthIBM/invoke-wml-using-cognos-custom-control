@@ -87,7 +87,7 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 
 - Define the project by giving a Name and hit 'Create'.
 
-![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/define_project.PNG)
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/define_project.png)
 
 - Once a project is created click on 'assets' tab.
 
