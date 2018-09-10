@@ -35,3 +35,24 @@ After going through this code pattern, you should be able to:
 * [d3js](https://d3js.org/) - Develop charts like pie, bar, or some fancy charts sunburst etc which can later be imported to cognos application.
 
 * Cognos (version 11.0.11) BI server - On Prim version of Cognos.
+
+## Featured Technologies
+
+* [D3js](https://d3js.org/):  
+* [Cognos Analytics](https://www.computerworld.com/article/2906336/emerging-technology/what-is-artificial-intelligence.html):  
+
+## Watch The Video
+
+Will be uploaded shortly.
+
+
+
+## Steps
+Follow these steps to setup and run this code pattern. The steps are described in detail below.
+1. [Pre-requisites](#1-pre-requisites)
+
+
+
+
+## 1. Pre-requisites
+-
