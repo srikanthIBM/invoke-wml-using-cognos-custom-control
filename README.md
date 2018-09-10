@@ -73,6 +73,23 @@ Follow these steps to setup and run this code pattern. The steps are described i
 
 ## 2. Create watson machine learning model
 
+- Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/)
+
+- Create a new Watson Studio project.
+
+
+
+From Watson Studio project to complete these tasks:
+
+Create a machine-learning model by using Watson Studio
+
+Train two models and pick the best one
+
+Save and deploy the model
+
+Use the deployed model to score records from a notebook
+
+
 - Follow the steps documented in the below link which has [IBM Watson Studio guided demo](https://www.ibm.com/cloud/garage/demo/try-watson-machine-learning/): Create a watson machine learning model to predict customer churn.
 
 - Create a new Watson Studio project
