@@ -166,8 +166,18 @@ Step by step instruction how to use Watson Machine Learning service can be found
 
 ## 4. Build cognos report and import custom widget
 
-- Place the custom widget related java script files in the cognos webcontent folder.
-/samples/javascript/wml/report.js
+- Place the custom widget related java script files [report.js](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/src/report.js) and [report.css](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/src/report.css) in the cognos installation webcontent directory.
+
+Path as follows
+```
+<Cognos installation directory>\samples\JavaScript\wml\report.js
+ ```
+ 
+ ```Note:``` 
+ Create the folder by name ```wml``` for this pattern under javaScript directory.
+ 
+ 
+ 
 
 - Launch cognos through url in the browser(preferred browsers are google cgrome and mozilla firefox).
  sample url as follows:
