@@ -1,0 +1,52 @@
+.left{
+    /* border:1px solid green; */
+    /* background-color: white; */
+    height: 500px;
+    width: 40%;
+    margin: 10px;
+    float:left;
+    padding: 10px;
+}
+.right{
+    /* border:1px solid red; */
+    /* background-color: white; */
+    height: 500px;
+    width: 55%;
+    margin: 10px;
+    float: right;
+    padding: 10px;
+    display: none;
+}
+legend{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+fieldset{
+    padding: 15px;
+}
+label{
+    width:180px;
+    display: inline-block;
+}
+.textbox{
+    width:150px;
+}
+.submit{
+    background-color: DodgerBlue;
+    color: white;
+    font-size: 16px;
+    width:100px;
+    height:24px;
+    text-align:center;
+}
+chart{
+    padding-left: 40px;
+}
+.arc text {
+    font: 15px sans-serif;
+    text-anchor: middle;
+} 
+.arc path {
+    stroke: #fff;
+}
