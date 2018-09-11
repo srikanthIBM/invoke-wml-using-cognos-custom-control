@@ -213,6 +213,18 @@ If you do not want to render an interface, set the property to None. If you do n
 
 ## 5. Analyse the invoked machine learning model
 
+- From the one single cognos dashboard, now we will be able to see the insights of the data through dataware house and along with that we can now do predictions by invoking dynamically watson machine learning models and display the output if the model on the dashboard.
+
+```screenshot```
+
+- For the data that we passed in this scenario, we could see that the customer is most likey to churn based on the input parameters. 66% chances that this customer is likely to churn.
+
+```screenshot```
+
+- 
+
+
+
 Throughout the analysis, we have learned several important things:
 1. Features such as tenure_group, Contract, PaperlessBilling, MonthlyCharges and InternetService appear to play a role in customer churn.
 2. There does not seem to be a relationship between gender and churn.
