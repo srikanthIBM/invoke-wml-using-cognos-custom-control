@@ -151,9 +151,7 @@ Customer churn occurs when customers or subscribers stop doing business with a c
 Using this kind of data and with the help of watson machine learning model output, you will be able to predict the most likely churn customers from the cognos dashboard and by taking appropriate actios(such as giving offers and needful service) will decrease the churn rate and prevent customer attrition.
 Contract is the most important variable to predict customer churn or not churn.
 
-- Authorization
-Step by step instruction how to use Watson Machine Learning service can be found [here](https://dataplatform.cloud.ibm.com/docs/content/analyze-data/ml-overview.html?context=analytics)
-
+> The data file in the `data` directory - `Telco-Customer-Churn.csv` has been downloaded from [here](https://www.kaggle.com/blastchar/telco-customer-churn) .
 
 
 
@@ -239,13 +237,15 @@ Throughout the analysis, we have learned several important things:
 
 ## Links
 - [Artificial Intelligence](https://www.ibm.com/services/artificial-intelligence)
-- [Analyzing machine learning model performance](https://console.bluemix.net/docs/services/watson-knowledge-studio/evaluate-ml.html#evaluate-ml)
+- [Machine Learning](https://dataplatform.cloud.ibm.com/docs/content/analyze-data/ml-overview.html?context=analytics)
+
 
 
 # Learn More
-- [Natural Language Classifier](https://console.bluemix.net/catalog/services/natural-language-classifier).
-- [Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding)
-- [Watson Assistant](https://console.bluemix.net/catalog/services/watson-assistant-formerly-conversation)
+- [IBM Cognos Custom Widgets](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ag_manage.doc/c_ca_add_db_widgets.html).
+
+- [adding javascript to cognos](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_cr_rptstd.doc/t_rpting_add_javascrpt.html)
+
 
 # Troubleshooting
 
