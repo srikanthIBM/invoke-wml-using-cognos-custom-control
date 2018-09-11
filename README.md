@@ -197,8 +197,18 @@ For example, add JSON that sets the orientation, alignment, and background color
 
 
 To specify how you want the control to interact with the report, click the UI type property.
-If you do not want to render an interface, set the property to None. If you do not want events, such as mouseup, to propagate from the control to the report, set the property to UI without event propagation. If you want events to propagate to the report, set the property to UI with event propagation.
+If you do not want to render an interface, set the property to None. If you do not want events, such as mouseup, to propagate from the control to the report, set the property to UI without event propagation. If you want events to propagate to the report, set the property to UI with event propagation. In this pattern,we would select ```UI without event propagation```
 
+- save and run the report.
+
+- In order for you to get get the output of the watson machine learning model, all you have to do is just fill the form with required input parameters and click on submit button.
+```Screenshot```
+
+- Cognos will notify you saying ```Invoking watson machine learning model```. Click on ok.
+```screenshot```
+
+- At run time, along with the input form you will now see the output of the watson machine from cognos application itself.
+```screenshot```
 
 
 ## 5. Analyse the invoked machine learning model
