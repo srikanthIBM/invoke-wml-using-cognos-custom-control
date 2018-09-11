@@ -188,11 +188,13 @@ Path as follows
 -  To add a custom control, from the toolbox toolbox icon, drag the Custom control icon custom control icon to the report.
 Select the custom control and click the Show properties icon Show properties icon.
 
-![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/WS_Assets.png)
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/custom_control_tool.png)
 
-To specify the location of the file that contains the JavaScript that you want to use for the control, click the Module path property.
-To add JSON that configures the custom control, click the Configuration property.
+- To specify the location of the file that contains the JavaScript that you want to use for the control, click the Module path property and to add JSON that configures the custom control, click the Configuration property.
 For example, add JSON that sets the orientation, alignment, and background color of the control.
+
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/custom_control_prop.png)
+
 
 To specify how you want the control to interact with the report, click the UI type property.
 If you do not want to render an interface, set the property to None. If you do not want events, such as mouseup, to propagate from the control to the report, set the property to UI without event propagation. If you want events to propagate to the report, set the property to UI with event propagation.
