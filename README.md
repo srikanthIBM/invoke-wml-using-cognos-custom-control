@@ -224,6 +224,12 @@ If you do not want to render an interface, set the property to None. If you do n
 - 
 
 
+###  The flow of the whole process could be summed up in the following diagram
+
+![WRML_Cognos](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/RWML_Arch.png)
+
+With this pattern now we can avoid tedious process of invoking the watson machine learning models on the fly and get the output of those models displayed on the fly.
+
 
 Throughout the analysis, we have learned several important things:
 1. Features such as tenure_group, Contract, PaperlessBilling, MonthlyCharges and InternetService appear to play a role in customer churn.
@@ -231,6 +237,22 @@ Throughout the analysis, we have learned several important things:
 3. Customers in a month-to-month contract, with PaperlessBilling and are within 12 months tenure, are more likely to churn; On the other hand, customers with one or two year contract, with longer than 12 months tenure, that are not using PaperlessBilling, are less likely to churn.
 
 
+## Links
+- [Artificial Intelligence](https://www.ibm.com/services/artificial-intelligence)
+- [Analyzing machine learning model performance](https://console.bluemix.net/docs/services/watson-knowledge-studio/evaluate-ml.html#evaluate-ml)
+
+
+# Learn More
+- [Natural Language Classifier](https://console.bluemix.net/catalog/services/natural-language-classifier).
+- [Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding)
+- [Watson Assistant](https://console.bluemix.net/catalog/services/watson-assistant-formerly-conversation)
+
+# Troubleshooting
+
+[See DEBUGGING.md.](DEBUGGING.md)
+
+# License
+[Apache 2.0](LICENSE)
 
 
 
