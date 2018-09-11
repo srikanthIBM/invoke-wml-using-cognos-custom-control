@@ -100,10 +100,44 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 - Select model type as 'sample model' radio button
 ![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/sample_wml_model.png)
 
-- You created and saved the model. It's time to deploy it. Fromthe deployment tab, click on 'Add to deployment' and select deployment type as 'web service'.
+- You created and saved the model. It's time to deploy it. From the deployment tab, click on 'Add to deployment' and select deployment type as 'web service'.
 
 ![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/add_to_deploy.png)
 
+- Once deployment completed, Copy the watson machine learning credentials:
+
+There are two ways to look up Watson Machine Learning service credentials, depending on where you start:
+
+IBM Watson Studio
+IBM Cloud
+
+ 
+```Option 1: From Watson Studio```
+
+From the Services menu in the top menu bar of Watson Studio, choose "Watson Services".
+In the Machine Learning section, select "Manage in IBM Cloud" from the ACTIONS menu beside the service instance for which you want to retrieve credentials. (This opens the service details page for the Watson Machine Learning service instance.)
+Click Service credentials.
+If there are no service credentials yet, click the New credential button.
+Under the ACTION menu, click "View credentials".
+
+ 
+
+```Option 2: From IBM Cloud```
+
+Log in to IBM Cloud external link. (This takes you to your IBM Cloud dashboard.)
+In your IBM Cloud dashboard, click the Watson Machine Learning service instance for which you want to retrieve credentials. (This opens the service details page for the Watson Machine Learning service instance.)
+Click Service credentials.
+If there are no service credentials yet, click the New credential button.
+Under the ACTION menu, click "View credentials".
+
+```
+{
+  "instance_id": "5xxxxxxx-c2a6-4c76-9b3a-xxxdbe00000",
+  "password": "samplepwd-xxx-pwd0-pwd-samplepwd",
+  "url": "https://eu-gb.ml.cloud.ibm.com",
+  "username": "7ab12e8-xxx-yyyy-xxxx-123456789
+}
+```
 
 
 
@@ -118,16 +152,7 @@ Step by step instruction how to use Watson Machine Learning service can be found
 
 [IBM Watson Machine Learning Credentials](https://watson-ml-api.mybluemix.net/#!/Deployments/post_v3_wml_instances_instance_id_published_models_published_model_id_deployments_deployment_id_online)
 
-- Copy the watson machine learning credentials:
 
-```
-{
-    "url": "https://ibm-watson-ml.mybluemix.net",
-    "username": "cxxxxx-2ee2-458e-ab92-e9cxxxxxx7d",
-    "password": "12344-5a3e-4d4c-9258-yyyyyyyyy",
-    "instance_id": "xxxxxxx12-954e-dc32-b441-yyyyyyy11yyyy"
-}
-```
 ## 3. Create custom control widgets
 
 - Using java script create the custom control widgets(here in our pattern, we have created a form to input the model required parameters).
