@@ -36,6 +36,8 @@ After going through this code pattern, you should be able to:
 
 * [IBM Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market. This code pattern uses Cloud Object Storage.
 
+* [Watson Machine Learning service](https://dataplatform.cloud.ibm.com/docs/content/analyze-data/ml-overview.html?context=analytics) - can build sophisticated analytical models, trained with your own data, that you can deploy for use in applications.
+
 * [d3js](https://d3js.org/) - Develop charts like pie, bar, or some fancy charts sunburst etc which can later be imported to cognos application.
 
 * Cognos (version 11.0.11) BI server - On Prim version of Cognos.
@@ -130,6 +132,8 @@ Click Service credentials.
 If there are no service credentials yet, click the New credential button.
 Under the ACTION menu, click "View credentials".
 
+Sample credentials as follows:
+
 ```
 {
   "instance_id": "5xxxxxxx-c2a6-4c76-9b3a-xxxdbe00000",
@@ -150,7 +154,7 @@ Contract is the most important variable to predict customer churn or not churn.
 - Authorization
 Step by step instruction how to use Watson Machine Learning service can be found [here](https://dataplatform.cloud.ibm.com/docs/content/analyze-data/ml-overview.html?context=analytics)
 
-[IBM Watson Machine Learning Credentials](https://watson-ml-api.mybluemix.net/#!/Deployments/post_v3_wml_instances_instance_id_published_models_published_model_id_deployments_deployment_id_online)
+
 
 
 ## 3. Create custom control widgets
@@ -162,11 +166,14 @@ Step by step instruction how to use Watson Machine Learning service can be found
 
 ## 4. Build cognos report and import custom widget
 
+- Place the custom widget related java script files in the cognos webcontent folder.
+/samples/javascript/wml/report.js
+
 - Launch cognos through url in the browser(preferred browsers are google cgrome and mozilla firefox).
  sample url as follows:
  http://Cognos_Server_IP:port/bi/?perspective=home
  
-- Click on '+ New button' to open a new report studio report.
+- Click on ```+ New button``` to open a new report studio report.
 
 - 
 
