@@ -223,8 +223,9 @@ If you do not want to render an interface, set the property to None. If you do n
 
 <!---
 ###  The flow of the whole process could be summed up in the following diagram
---->
+
 ![WRML_Cognos](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/RWML_Arch.png)
+--->
 
 With this pattern now we can avoid tedious process of invoking the watson machine learning models on the fly and get the output of those models displayed on the fly.
 
