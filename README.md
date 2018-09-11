@@ -185,10 +185,11 @@ Path as follows
  
 - Click on ```+ New button``` to open a new report studio report.
 
-- 
-
 -  To add a custom control, from the toolbox toolbox icon, drag the Custom control icon custom control icon to the report.
 Select the custom control and click the Show properties icon Show properties icon.
+
+![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/WS_Assets.png)
+
 To specify the location of the file that contains the JavaScript that you want to use for the control, click the Module path property.
 To add JSON that configures the custom control, click the Configuration property.
 For example, add JSON that sets the orientation, alignment, and background color of the control.
