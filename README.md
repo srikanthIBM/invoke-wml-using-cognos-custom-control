@@ -67,9 +67,10 @@ Note: Cognos version can be anything over 11.0.05.
 Follow these steps to setup and run this code pattern. The steps are described in detail below.
 1. Ceate watson Studio service url 
 2. [Create watson machine learning model](#1-create-watson-machine-learning-model)
-3. [Host the watson machine learning
-4. [Create custom control widgets](#3-create-custom-control-widgets)
-5. [Build cognos report and import custom widget](#4-build-cognos-report-and-import-custom-widget)
+3. [Get WML Credentials and model API code]
+4. [Host the WML model through node application]
+5. [Create custom control widgets](#3-create-custom-control-widgets)
+5. [Build cognos report using custom widget](#4-build-cognos-report-and-import-custom-widget)
 6. [Analyse the invoked machine learning model](#5-analyse-the-invoked-machine-learning-model)
 
 
@@ -104,12 +105,15 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 
 ![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/add_to_deploy.png)
 
+## Get WML Credentials and model API code
+
 - Once deployment completed, Copy the watson machine learning credentials:
 
 There are two ways to look up Watson Machine Learning service credentials, depending on where you start:
 
 IBM Watson Studio
 IBM Cloud
+
 
  
 ```Option 1: From Watson Studio```
@@ -153,14 +157,15 @@ Contract is the most important variable to predict customer churn or not churn.
 
 
 
-## 3. Create custom control widgets
+## 4. Create custom control widgets
 
 - Using java script create the custom control widgets(here in our pattern, we have created a form to input the model required parameters).
 
 - Using d3 create pie chart. In this pattern we created pie chart which shows the model output confidence score in percentage.
 
 
-## 4. Build cognos report and import custom widget
+
+## 5. Build cognos report and import custom widget
 
 - Place the custom widget related java script files [report.js](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/src/report.js) and [report.css](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/src/report.css) in the cognos installation webcontent directory.
 
