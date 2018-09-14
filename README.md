@@ -97,7 +97,7 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 
 ![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/modeller.png)
 
-- Select model type as 'sample model' radio button
+- We have used sample model for this pattern, select model type as 'sample model' radio button
 ![](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/sample_wml_model.png)
 
 - You created and saved the model. It's time to deploy it. From the deployment tab, click on 'Add to deployment' and select deployment type as 'web service'.
