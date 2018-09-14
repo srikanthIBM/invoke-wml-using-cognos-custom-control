@@ -71,7 +71,7 @@ Follow these steps to setup and run this code pattern. The steps are described i
 4. [Host the WML model through node application]
 5. [Create custom control widgets](#3-create-custom-control-widgets)
 5. [Build cognos report using custom widget](#4-build-cognos-report-and-import-custom-widget)
-6. [Analyse the invoked machine learning model](#5-analyse-the-invoked-machine-learning-model)
+6. [Run the report and Analyse the results](#5-analyse-the-invoked-machine-learning-model)
 
 
 ## 2. Create watson machine learning model
@@ -233,10 +233,7 @@ If you do not want to render an interface, set the property to None. If you do n
 With this pattern now we can avoid tedious process of invoking the watson machine learning models on the fly and get the output of those models displayed on the fly.
 
 
-Throughout the analysis, we have learned several important things:
-1. Features such as tenure_group, Contract, PaperlessBilling, MonthlyCharges and InternetService appear to play a role in customer churn.
-2. There does not seem to be a relationship between gender and churn.
-3. Customers in a month-to-month contract, with PaperlessBilling and are within 12 months tenure, are more likely to churn; On the other hand, customers with one or two year contract, with longer than 12 months tenure, that are not using PaperlessBilling, are less likely to churn.
+
 
 
 ## Links
