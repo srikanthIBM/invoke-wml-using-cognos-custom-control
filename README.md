@@ -71,7 +71,7 @@ Follow these steps to setup and run this code pattern. The steps are described i
 4. [Host the WML model through node application]
 5. [Create custom control widgets](#3-create-custom-control-widgets)
 5. [Build cognos report using custom widget](#4-build-cognos-report-and-import-custom-widget)
-6. [Run the report and Analyse the results](#5-analyse-the-invoked-machine-learning-model)
+6. [Run the report and Analyse the results](#5-analyse-the-invoked-machine-learning-model) 
 
 
 ## 2. Create watson machine learning model
