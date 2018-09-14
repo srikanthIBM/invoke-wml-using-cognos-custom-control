@@ -29,7 +29,7 @@ When the reader has completed this code pattern, one will be able to:
 
 ![WRML_Cognos](https://github.com/srikanthIBM/invoke-wml-using-cognos-custom-control/blob/master/images/RWML_Arch.png)
 
-1. Create the forms using js and charts using D3js.
+1. Create the custom control widget using java script.
 2. Create Watson Machine Learning or the predictive Model.
 3. Launch Cognos either on Google chrome or mozilla firefox.
 4. From the cognos dashboard, pass the input parameters in the form and click submit button.
@@ -67,9 +67,6 @@ Will be uploaded shortly.
 Note: Cognos version should be over 11.0.05.
 
 * IBM Cloud account: You must have IBM Cloud account to work with this code pattern. If you do not have an IBM Cloud account, please create an account [here](https://console.bluemix.net/)
-
-
-
 
 
 ## Steps
