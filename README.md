@@ -1,7 +1,7 @@
 # Invoke watson machine learning model using cognos custom control
 ***Work In Progress***
 
-Cognos overview --------
+Cognos 11 is not only positioned towards the professional report author but specifically towards power users and data scientists by offering Watson-like features such as natural language search and automatic proposal of charts. Now with all these latest features in cognos, interacting or communicating with cloud hosted services is also possible from the cognos application.
 
 It is always a tedious task to see a real time Watson Machine Learning(wml) model output from Cognos application. 
 To achieve that, we then need to have an external mechanism to invoke the model, pass the required input parameters and finally the scores are written back to the database. Cognos reads the latest scores from the database and displays on the dashboard. This is a little tedious process of displaying the machine learning model outputs at run time.
