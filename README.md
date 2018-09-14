@@ -1,4 +1,4 @@
-# invoke-wml-using-cognos-custom-control
+# Invoke watson machine learning model using cognos custom control
 ***Work In Progress***
 
 Cognos overview --------
