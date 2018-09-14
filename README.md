@@ -1,6 +1,8 @@
 # invoke-wml-using-cognos-custom-control
 ***Work In Progress***
 
+Cognos overview --------
+
 It is always a tedious task to see a real time Watson Machine Learning(wml) model output from Cognos application. 
 To achieve that, we then need to have an external mechanism to invoke the model, pass the required input parameters and finally the scores are written back to the database. Cognos reads the latest scores from the database and displays on the dashboard. This is a little tedious process of displaying the machine learning model outputs at run time.
 
@@ -9,12 +11,19 @@ The latest version of Cognos comes with Custom control feature. It gives the cap
 For this, one need to build a custom widget using Java Script to get inputs and to show outputs as d3 chart. Then this widget can be imported into Cognos dashboard and gets real time output.
 In this pattern, we will demonstrate to build custom widget, integration of the custom widget in Cognos and to invoke the Machine learning model from the Cognos Dashboard.
 The dataset considered here is Telecom sample customer data, using that data we Predict behaviour to retain the customers. You can analyse all relevant customer data and develop focused customer retention programs.
-For this, one need to build a custom widget using Java Script to get inputs and to show outputs as [d3 chart](https://d3js.org/). Then this widget can be imported into Cognos dashboard and gets real time output.
+* Use case details: 
+Customer churn occurs when customers or subscribers stop doing business with a company or service, also known as customer attrition. It is also referred as loss of clients or customers. One industry in which churn rates are particularly useful is the telecommunications industry, because most customers have multiple options from which to choose within a geographic location.
+Using this kind of data and with the help of watson machine learning model output, you will be able to predict the most likely churn customers from the cognos dashboard and by taking appropriate actios(such as giving offers and needful service) will decrease the churn rate and prevent customer attrition.
 
-After going through this code pattern, you should be able to:
+> The data file in the `data` directory - `Telco-Customer-Churn.csv` has been downloaded from [here](https://www.kaggle.com/blastchar/telco-customer-churn) .
+For this, we will build a custom widget using Java Script to get inputs and to show outputs as chart. 
+Then this widget can be imported into Cognos dashboard and gets real time output.
+
+When the reader has completed this code pattern, one will be able to:
 - create a real time dashboard using cognos custom control.
-- can invoke machine learning or predictive models hosted on cloud.
-- can import the external java script build charts to cognos application.
+- invoke machine learning models hosted on cloud through REST API from cognos.
+- import the external java script to cognos reports.
+ 
 
 ## Flow
 
@@ -40,7 +49,7 @@ After going through this code pattern, you should be able to:
 
 * [d3js](https://d3js.org/) - Develop charts like pie, bar, or some fancy charts sunburst etc which can later be imported to cognos application.
 
-* Cognos (version 11.0.11) BI server - On Prim version of Cognos.
+* Cognos BI server - On Prim version of Cognos or SaaS offering.
 
 ## Featured Technologies
 
@@ -55,7 +64,7 @@ Will be uploaded shortly.
 ## 1. Pre-requisites
 
 * Cognos server - You can have on-prim or SaaS offering of Cognos with admin access.
-Note: Cognos version can be anything over 11.0.05.
+Note: Cognos version should be over 11.0.05.
 
 * IBM Cloud account: You must have IBM Cloud account to work with this code pattern. If you do not have an IBM Cloud account, please create an account [here](https://console.bluemix.net/)
 
@@ -148,12 +157,7 @@ Sample credentials as follows:
 
 
 
-### Use case details: 
-Customer churn occurs when customers or subscribers stop doing business with a company or service, also known as customer attrition. It is also referred as loss of clients or customers. One industry in which churn rates are particularly useful is the telecommunications industry, because most customers have multiple options from which to choose within a geographic location.
-Using this kind of data and with the help of watson machine learning model output, you will be able to predict the most likely churn customers from the cognos dashboard and by taking appropriate actios(such as giving offers and needful service) will decrease the churn rate and prevent customer attrition.
-Contract is the most important variable to predict customer churn or not churn.
 
-> The data file in the `data` directory - `Telco-Customer-Churn.csv` has been downloaded from [here](https://www.kaggle.com/blastchar/telco-customer-churn) .
 
 
 
