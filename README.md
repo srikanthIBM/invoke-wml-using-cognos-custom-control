@@ -52,30 +52,28 @@ After going through this code pattern, you should be able to:
 
 Will be uploaded shortly.
 
+## 1. Pre-requisites
+
+* Cognos server - You can have on-prim or SaaS offering of Cognos with admin access.
+Note: Cognos version can be anything over 11.0.05.
+
+* IBM Cloud account: You must have IBM Cloud account to work with this code pattern. If you do not have an IBM Cloud account, please create an account [here](https://console.bluemix.net/)
+
+
+
 
 
 ## Steps
 Follow these steps to setup and run this code pattern. The steps are described in detail below.
-1. [Pre-requisites](#1-pre-requisites)
-2. [Create watson machine learning model](#2-create-watson-machine-learning-model)
-3. [Create custom control widgets](#3-create-custom-control-widgets)
-4. [Build cognos report and import custom widget](#4-build-cognos-report-and-import-custom-widget)
-5. [Analyse the invoked machine learning model](#5-analyse-the-invoked-machine-learning-model)
-
-
-
-
-## 1. Pre-requisites
-
-- Admin access to cognos 11.0.11 server to place javascript files to the cognos webcontent folder.
-
-- IBM Cloud account: You must have IBM Cloud account to work with this code pattern. If you do not have an IBM Cloud account, you can create a one month free trail account [here](https://console.bluemix.net/)
-
+1. Ceate watson Studio service url 
+2. [Create watson machine learning model](#1-create-watson-machine-learning-model)
+3. [Host the watson machine learning
+4. [Create custom control widgets](#3-create-custom-control-widgets)
+5. [Build cognos report and import custom widget](#4-build-cognos-report-and-import-custom-widget)
+6. [Analyse the invoked machine learning model](#5-analyse-the-invoked-machine-learning-model)
 
 
 ## 2. Create watson machine learning model
-
-- Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/)
 
 - Launch watson studio
 
