@@ -16,7 +16,7 @@ The dataset considered for this pattern is `Sample Customer Data in Telecom Doma
 
 Customer churn occurs when customers or subscribers stop doing business with a company or service, also known as customer attrition. It is also referred as loss of clients or customers. One industry in which churn rates are particularly useful is the telecommunications industry, because most customers have multiple options from which to choose within a geographic location.
 
-Using this kind of data and with the help of watson machine learning model output, you will be able to predict the most likely churn customers from the cognos dashboard and by taking appropriate actions (such as giving offers and needful service) will decrease the churn rate and prevent customer attrition.
+Using this kind of data and with the help of watson machine learning model output, you will be able to predict the most likely churn customers(telecom customers) from the cognos dashboard and by taking appropriate actions (such as giving offers and needful service) will decrease the churn rate and prevent customer attrition.
 
 > The data file in the `data` directory - `Telco-Customer-Churn.csv` has been downloaded from [here](https://www.kaggle.com/blastchar/telco-customer-churn) .
 
